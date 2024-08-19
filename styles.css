@@ -1,0 +1,50 @@
+body {
+    background-color: #023047;
+}
+div {
+    background-color: #219EBC;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 5px #FB8500 solid;
+    margin: 100px;
+}
+
+div > h2 {
+    color: #FFB703;
+}
+
+div > img {
+    width: 150px;
+}
+
+h1 a {
+    color: #FB8500;
+
+}
+
+h1 a:hover {
+    color: #FFB703;
+}
+
+button {
+    font-family: "Lucida Console", "Courier New", monospace;
+    border: 3px #FB8500 solid;
+    background-color: #023047;
+    color: white;
+    padding: 3px;
+}
+
+button:hover {
+    border: #ffb703 solid;
+    background-color: #219EBC;
+    
+}
+
+.text-input {
+    border: 2px #ffb703 solid;
+    background-color: #023047;
+    color: white ;
+}
